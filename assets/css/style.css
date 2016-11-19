@@ -1,0 +1,150 @@
+.body {
+font-family: "Georgia", "Times", "Times New Roman", "serif";
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto');
+
+
+p {
+outline:2px dashed red;
+color: #777777;
+float: right;
+width: 495px;
+height: 60px;
+
+/* box-sizing: content-box; */
+}
+
+.header {
+outline:2px dashed red;	
+background-color: #4aaaa5;
+color: white;
+text-align: center;
+
+padding-top: 5px;
+padding-bottom:5px; 
+width: 25%;
+margin-left:80px;
+}
+
+.asides {
+	xclear: both;
+font-family: "Roboto", "arial", "helvetica Neue","Helvetica", "sans-serif";
+/* outline:2px dashed red;	*/
+background-color: white;
+color: #777777;
+text-align: center;
+box-sizing: border-box;
+width:33%;
+float: right;
+padding-right: 50px;
+margin-right: 10px;
+
+
+
+}
+
+.section1a {
+float: left;
+/* outline:2px dashed red;	*/
+background-color: #dcdcdc;
+content: #ebebeb;
+color: #777777;
+width: 495px;
+box-sizing: border-box;
+
+}
+
+.section2 {
+float: left;
+/* outline:2px dashed red;	*/
+background-color: white;
+color: #777777;
+width:495px;
+
+}
+
+.articles {
+
+}
+
+.mainback {
+/* outline:2px dashed blue; */
+
+width: 900px;
+background-color: green;
+
+}
+
+nav {
+margin-left: 600px;
+}
+
+.picdef {
+float:left;
+max-width: 25%;
+padd
+}
+
+.clear {
+clear: both;
+overflow:auto;
+}
+
+.foot {
+clear:both;
+background-color: gray;
+padding-top: 22px;
+text-align: center;
+height:44px;
+
+}
+/* This section was used for in class exercises for font family changes */
+.modify {
+
+font-family: "Roboto","arial", "helvetica Neue","Helvetica", "sans-serif";
+font-size: 1em;
+font-weight: light;
+
+}
+
+/* Example to modify link using psuedo class */
+a:hover {
+color:green;
+}
+
+@media screen and (max-width: 980px) {
+        body {
+                background-color: #333;
+        }
+        .wrapper {
+                width: 600px;
+        }
+}
+@media screen and (max-width: 768px) {
+        body {
+                background-color: #333;
+        }
+        .wrapper {
+                width: 600px;
+        }
+}
+@media screen and (max-width: 640px) {
+        body {
+                background-color: #333;
+        }
+        .wrapper {
+                width: 600px;
+        }
+}
+
+
+
+
+
+
+</style>	
+
+
